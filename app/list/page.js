@@ -40,3 +40,9 @@ function Products(props){
     </div>
   )
 }
+// 리액트에서 array/object로 되어있는 state를 수정하고 싶으면 
+// 독립적인 카피본을 만들어서 수정해야함 
+//[...기존state]  array
+// {...기존state} object
+// 이렇게 하면 독립적인 카피가 하나 생성됨.
+// 문자나 숫자로 되어있는 state는 굳이 그럴 필요 xx. 
